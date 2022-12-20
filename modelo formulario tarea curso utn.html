@@ -1,6 +1,13 @@
 <html>
 	<head>
 	<p>Formulario de enlace para contacto desde cv</p>
+	<style>
+		form {
+			box-shadow: 0 0 5px rgb(152, 190, 199);
+			background-color: rgb(48, 120, 161);
+		}
+		
+	</style>
 	</head>
 	<form action=""method="">
 				<p>
@@ -8,6 +15,7 @@
 					<input type="text" name="nombre"/>
 				</p>
 				<p>
+					<label for="nom">Apellido</label>
 					<input type="text" name="apellido" placholder="apellido"/>
 				</p>
 				<p>
@@ -16,6 +24,10 @@
 				<p>
 					<label for="text">Dejanos tu comentario</label>
 					<textarea name="comentarios"></textarea>
+				</p>		
+				<input type="submit" value="enviar"/>
+				<input type="reset" value="borrar"/>
+	</form> 
 </html>
  	
 			

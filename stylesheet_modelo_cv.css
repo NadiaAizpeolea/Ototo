@@ -1,15 +1,13 @@
-
-
+ 
 
 body{
-  font-family: sans-serif;
+  font-family: 'Source serif pro', serif;
   background: linear-gradient(to bottom, blue, white);
 }
 
 h1 {
-  color: rgb(249, 246, 250);
+  color: rgb(249 246 250);
   font-size: 300%;
-
 }
 h3 {
   color: black;
@@ -19,9 +17,12 @@ h4 {
   color: black;
   font-size: 150%;
 }
-
 p {
   color: rgb(70, 68, 68);
+  border-radius: 5px;
+  box-shadow: 0 0 5px #888;
+  column-count: 2;
+  column-gap: 20px;
 }
 
 h5 {
@@ -35,4 +36,4 @@ a{
 a:hover{
         color: green;
 }
-  
+
