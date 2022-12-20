@@ -1,0 +1,38 @@
+
+
+
+body{
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, blue, white);
+}
+
+h1 {
+  color: rgb(249, 246, 250);
+  font-size: 300%;
+
+}
+h3 {
+  color: black;
+  font-size: 200%;
+}
+h4 {
+  color: black;
+  font-size: 150%;
+}
+
+p {
+  color: rgb(70, 68, 68);
+}
+
+h5 {
+  color: black;
+  font-size: 100%;
+}
+a{
+  font-weight: bold;
+  color: blue;
+}
+a:hover{
+        color: green;
+}
+  
