@@ -11,7 +11,7 @@
 	justify-content: right;
 	align-items: stretch;
 }
-.flex-rojo{
+.rojo{
 	/* position:static; */
 	width: 100px;
 	height: 100px;
@@ -21,7 +21,7 @@
 
 
 }
-.flex-verde{
+.verde{
 	width: 100px;
 	height: 100px;
 	margin-right: 0px;
@@ -29,7 +29,7 @@
 	background-color: green;
 
 }
-.flex-azul{
+.azul{
 	width: 100px;
 	height: 100px;
 	margin-right: 0px;
