@@ -3,7 +3,7 @@
 	height: 300px;
 	width: 300px;
 	display: flex;
-	border-color: black;
+	box-sizing: border-box;
 	border-top-width: thick;
 	border-right-width: thick;
 	border-bottom-width: thick;
