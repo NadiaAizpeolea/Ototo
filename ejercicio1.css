@@ -1,11 +1,13 @@
 .flex-container{
 	background-color: white;
 	height: 300px;
+	width: 300px;
 	display: inline-flex;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
+	border-color: black;
+	border-top-width: thick;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-left-width: thick;
 	font-size: 30px;
 	flex-direction: column;
 	justify-content: right;
