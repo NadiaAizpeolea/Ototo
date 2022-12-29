@@ -2,7 +2,7 @@
 	background-color: white;
 	height: 300px;
 	width: 300px;
-	display: inline-flex;
+	display: flex;
 	border-color: black;
 	border-top-width: thick;
 	border-right-width: thick;
