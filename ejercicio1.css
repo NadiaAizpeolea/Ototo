@@ -1,0 +1,39 @@
+.flex-container{
+	background-color: white;
+	height: 500px;
+	display: inline-flex;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	font-size: 30px;
+	flex-direction: column;
+	justify-content: right;
+	align-items: stretch;
+}
+.flex-rojo{
+	/* position:static; */
+	width: 100px;
+	height: 100px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background-color: red;
+
+
+}
+.flex-verde{
+	width: 100px;
+	height: 100px;
+	margin-right: 0px;
+	margin-top: 1em;
+	background-color: green;
+
+}
+.flex-azul{
+	width: 100px;
+	height: 100px;
+	margin-right: 0px;
+	margin-top: 1em;
+	background-color: blue;
+
+}
