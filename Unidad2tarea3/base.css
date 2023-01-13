@@ -5,9 +5,10 @@ body {
 	color: #000;
 	background: #332F29;
 	font-size:100%;
+	
 }
 #contenedor {
-	display: flex;
+	
 	max-width: 800px;
 	background: #8FA68E;
 	margin-right:auto;
@@ -39,25 +40,31 @@ aside {
 }
 
 @media screen and (max-width:800px) and (min-width:180px){
-	body {
+	contenedor {
 		font-size:30%;
-		align-items: stretch;
-		flex-direction: column;
 	}
 	nav {
-		background: #FFD432;
+		background: #e7c137;
 		float: none;
 		width: 100%;
+		margin-top: 5%;
+		padding-top: 1%;
+		padding-bottom: 1%;
 	}	
 	section {
 		background: #F1F2C0;
 		float: none;
 		margin: 0 0 0 0px;
 		width: 100%;
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		
 	}
 		aside {
 		background: #CCC59E;
 		float: none;
 		width: 100%;
+		padding-top: 1%;
+		padding-bottom: 1%;
 	}
 }
