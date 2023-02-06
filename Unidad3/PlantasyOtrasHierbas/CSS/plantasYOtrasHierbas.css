@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*CSS document*/
+.btn{
+    color:white
+}
+
+.definicion{
+    color:antiquewhite;
+    text-align: center;
+    background-color: darkolivegreen;
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color:#C0b99d;
+    padding: 16px 0; /*1rem0*/
+
+}
+header h1{
+    color: darkolivegreen;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+    
+}
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.navbar{
+    background-color:#C0b99d;
+}
+.active{
+    font-style: bold;
+    font-size: larger;
+
+}
