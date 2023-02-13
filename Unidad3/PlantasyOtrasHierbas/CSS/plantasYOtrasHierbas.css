@@ -180,3 +180,77 @@ footer{
     flex-direction: row-reverse;
 }  
 /**fin Plantas**/
+
+/**Inicio Galeria**/
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex start;
+}
+.galeria img{
+    max-width: 18%;
+    border: 1px solid darkolivegreen;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 20px;
+
+
+}
+/** fin galería**/
+
+/** inicio novedades **/
+.novedades{
+    color: darkolivegreen;
+    border-bottom: 1px solid darkgreen;
+}
+/** fin novedades **/
+
+/** inicio contacto **/
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+.contacto div{
+    width: 100%;
+}
+.datos p{
+    font-size: 14px;
+}
+.datos ul li{
+    font-size: 13px;
+}
+.formulario p{
+    display: flex;
+}
+.formulario p label{
+    min-width: 80px;
+display: flex;
+align-items: center;
+}
+.formulario p:nth-child(4){
+    align-items: start;
+}
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+.formulario input[type="submit"]{
+    background-color: darkolivegreen;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: antiquewhite;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+}
+.formulario input[type="submit"]:hover {
+    background-color: rgb(102, 114, 83);
+}
