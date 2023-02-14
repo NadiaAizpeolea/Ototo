@@ -1,0 +1,49 @@
+.color{
+    margin-top: 10%;
+    display: flex;
+    gap: 100px;
+    
+}
+h2{
+    
+    
+}
+button{
+    
+    border: solid #ccc;
+    font-size: 20px;
+    height: 100px;
+    width: 100px;
+    color: antiquewhite;
+    
+}
+button:hover{
+    
+    transition: all 2s ease;
+
+}
+.rojo{
+    background-color: rgb(136, 79, 79, 0.9);
+}
+
+.rojo:hover{
+    color: white important!;
+    box-shadow: 10px 10px 10px rgb(160, 94, 94) ;
+    transition: all 2s ease;
+
+}
+.verde{
+    background-color: rgb(68, 105, 68);
+}
+.verde:hover{
+    color: white important!;
+    box-shadow: 10px 10px 10px rgb(190, 241, 190) ;
+    transition: all 2s ease;
+}
+.amarillo{
+    background-color: rgb(230, 194, 104);
+}
+.amarillo:hover{
+    color: white important!;
+    box-shadow: 10px 10px 10px rgb(230, 203, 135) ;
+    transition: all 2s ease;
