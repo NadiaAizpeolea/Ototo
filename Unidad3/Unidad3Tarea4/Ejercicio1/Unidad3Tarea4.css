@@ -1,13 +1,11 @@
-.color{
+.holder{
     margin-top: 10%;
     display: flex;
-    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
-h2{
-    
-    
-}
+
 button{
     
     border: solid #ccc;
@@ -17,11 +15,7 @@ button{
     color: antiquewhite;
     
 }
-button:hover{
-    
-    transition: all 2s ease;
 
-}
 .rojo{
     background-color: rgb(136, 79, 79, 0.9);
 }
@@ -37,7 +31,7 @@ button:hover{
 }
 .verde:hover{
     color: white important!;
-    box-shadow: 10px 10px 10px rgb(190, 241, 190) ;
+    box-shadow: 10px 10px 10px rgb(131, 168, 131) ;
     transition: all 2s ease;
 }
 .amarillo{
@@ -47,3 +41,4 @@ button:hover{
     color: white important!;
     box-shadow: 10px 10px 10px rgb(230, 203, 135) ;
     transition: all 2s ease;
+}

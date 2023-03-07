@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let alumnos=[
+            {nombre: 'Rosa Gonzalez', nota: 7},
+            {nombre: 'Jose Gomez', nota: 5},
+            {nombre: 'Catalina Perez', nota: 8},
+            {nombre: 'Eva Jimenez', nota: 3},
+            {nombre: 'Eduardo Lorenzo', nota: 9},
+            {nombre: 'Esteban Ramirez', nota: 6},
+            {nombre: 'Leandro Lopez', nota: 7}
+        ];
+        console.log(alumnos);
+        let aprobados=[];
+        let desaprobados=[];
+        
+       aprobados = alumnos.filter(function (e){return e.nota>=7;})
+       desaprobados = alumnos.filter(function (e){return e.nota<7;})
+
+       var texto = '';
+
+        for (var i = 0; i < aprobados.length; i++) {
+        texto += 'Nombre: ' + aprobados[i].nombre + ', Nota: ' + aprobados[i].nota + '\n';
+        }
+
+        alert('Los alumnos aprobados son:  '+  texto);
+        
+        var texto1 = '';
+
+        for (var i = 0; i < desaprobados.length; i++) {
+        texto1 += 'Nombre: ' + desaprobados[i].nombre + ', Nota: ' + desaprobados[i].nota + '\n';
+        }
+
+        alert('Los alumnos desaprobados son:  '+  texto1);
+        
+
+
+    </script>
+</body>
+</html>
